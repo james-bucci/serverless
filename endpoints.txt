@@ -1,0 +1,12 @@
+endpoints:
+  POST - https://6il24cthxf.execute-api.us-east-2.amazonaws.com/prod/notes
+  GET - https://6il24cthxf.execute-api.us-east-2.amazonaws.com/prod/notes/{id}
+  GET - https://6il24cthxf.execute-api.us-east-2.amazonaws.com/prod/notes
+  PUT - https://6il24cthxf.execute-api.us-east-2.amazonaws.com/prod/notes/{id}
+  DELETE - https://6il24cthxf.execute-api.us-east-2.amazonaws.com/prod/notes/{id}
+functions:
+  create: notes-app-api-prod-create
+  get: notes-app-api-prod-get
+  list: notes-app-api-prod-list
+  update: notes-app-api-prod-update
+  delete: notes-app-api-prod-delete
